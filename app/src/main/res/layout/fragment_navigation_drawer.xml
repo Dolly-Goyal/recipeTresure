@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.recipe.dolly.mocktail.NavigationDrawerFragment"
+    android:id="@+id/navigation_drawer_fragment"
+    android:background="@color/primaryColor">
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_action_person"
+        android:id="@+id/imageProfile"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_below="@+id/imageProfile"
+        android:paddingLeft="35dp"
+        android:textSize="25dp"
+        android:id="@+id/logOut"
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context="com.recipe.dolly.mocktail.NavigationFragment"
+    android:id="@+id/navigation_drawer"
+    android:background="@color/primaryColor">
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:src="@drawable/simulador"
+        android:id="@+id/imageLogo"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_below="@+id/imageLogo"
+        android:paddingLeft="35dp"
+        android:textSize="25dp"
+        android:id="@+id/home"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Your Recipe"
+        android:layout_below="@+id/home"
+        android:paddingLeft="35dp"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/createRecipe"
+        android:textColor="@color/textColor"/>
+
+</RelativeLayout>

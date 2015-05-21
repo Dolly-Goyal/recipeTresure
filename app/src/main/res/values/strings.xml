@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mocktail</string>
+    <string name="title_activity_main">Mocktail</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Mocktail</string>
+    <string name="title_activity_sign_up">Mocktail</string>
+    <string name="title_activity_recipe_data">Mocktail</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="error_msg">Please fill all detail.</string>
+
+    <string name="message">Email Id and Password is not match</string>
+    <string-array name="Recipe_Type">
+        <item>Select Type</item>
+        <item>Veg</item>
+        <item>Non-Veg</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

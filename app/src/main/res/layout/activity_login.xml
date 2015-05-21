@@ -1,0 +1,75 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.recipe.dolly.mocktail.LoginActivity"
+    android:background="@color/primaryColor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOCKTAIL"
+        android:id="@+id/text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:textSize="40dp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:textColorHint="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailId"
+        android:hint="Email Id"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="25dp"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp">
+        <requestFocus/>
+     </EditText>
+
+    <EditText
+        android:textColorHint="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_below="@+id/emailId"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="25dp"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:text="Log In"
+        android:textSize="25dp"
+        android:background="@color/primaryColorDark"
+        android:id="@+id/logIn"
+        android:textColor="@color/textColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new account. SignUp!"
+        android:gravity="center"
+        android:layout_below="@+id/logIn"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="25dp"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/signUp"
+        android:paddingRight="25dp"/>
+
+</RelativeLayout>
